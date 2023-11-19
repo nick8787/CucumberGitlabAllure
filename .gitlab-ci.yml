@@ -6,7 +6,7 @@ cache:
     - target/
 
 test:
-  stage: test1
+  stage: test
   script:
     - mvn clean test
 
