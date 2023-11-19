@@ -10,11 +10,11 @@ test:
   script:
     - mvn clean test
 
-deploy:
-  stage: deploy
-  script:
-    - mvn io.qameta.allure:allure-maven:report
-  artifacts:
-    when: always
-    paths:
-      - /builds/antikillaa/java-cucumber-allure-gitlab/target/site/allure-maven-plugin
+#deploy:
+#  stage: deploy
+#  script:
+#    - mvn io.qameta.allure:allure-maven:report
+#  artifacts:
+#    when: always
+#    paths:
+#      - /builds/antikillaa/java-cucumber-allure-gitlab/target/site/allure-maven-plugin
